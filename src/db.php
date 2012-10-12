@@ -8,7 +8,7 @@
 		if (!$connection)
 			die("Unable to select database: " . mysql_error());
 		
-		mysql_select_db("nikitin2_milf2", $connection) or die("Unable to select database: " . mysql_error());
+		mysql_select_db("nikitin2_milf3", $connection) or die("Unable to select database: " . mysql_error());
 		
 		return $connection;
 	}
